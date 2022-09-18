@@ -1,12 +1,14 @@
-import React from "react"
+import React from 'react'
+import Layout from '../components/Layout'
 
-import Layout from "../components/Layout"
+import 'flowbite'
+
 const Home = () => {
-  return (
-    <Layout>
-      <div>children hello</div>
-    </Layout>
-  )
+    return (
+        <Layout>
+            <section></section>
+        </Layout>
+    )
 }
 
 export default Home
