@@ -6,7 +6,7 @@ import 'flowbite'
 const Home = () => {
     return (
         <Layout>
-            <section></section>
+            <section>Hello</section>
         </Layout>
     )
 }

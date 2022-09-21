@@ -5,6 +5,16 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: ["gatsby-plugin-postcss"],
+    /* Your site config here */
+    siteMetadata: { title: 'Gatsby Tailwindcss HeadlessUI' },
+    plugins: [
+        'gatsby-plugin-postcss',
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `src`,
+                path: `${__dirname}/src/`,
+            },
+        },
+    ],
 }
